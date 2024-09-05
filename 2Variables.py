@@ -6,4 +6,4 @@ b = 12.99       #floats
 
 c = True        #booleans
 
-d = "anything"  #strings
+d = "anything"  #stringsuy
