@@ -18,3 +18,5 @@ price3 = 12.34
 print(f"price1 is: ${price1:0}")
 print(f"price2 is: ${price2: }")
 print(f"price3 is: ${price3: }")
+
+#you can conbime them by adding a comma after one another
