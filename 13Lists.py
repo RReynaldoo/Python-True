@@ -2,8 +2,8 @@
 #List (array like)
 
 #List = []  ordered     changeable      Duplicates Yes      modifiable
-#Tuple= ()  ordered     unchangeable    Duplicates Yes                      Fast
 #Set  = {}  unordered   immutable       Duplicates No       Add/Remove
+#Tuple= ()  ordered     unchangeable    Duplicates Yes                      Fast
 
 fruit = ["banana", "orange", "coconut"]
 
@@ -20,4 +20,5 @@ fruit.reverse()
 fruit.clear()
 fruit.index("banana")        #Returns the index of an item in the list
 fruit.count("banana")        #Returns the number of times this item is repeated
+fruit.pop()                  #Removes the first item of the list
 ("banana" in fruit )         #Checks if an element exists
