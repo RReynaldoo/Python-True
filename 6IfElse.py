@@ -17,3 +17,7 @@ if condition:           #No need for explicitly ask if it is true or not
     print("Something")
 else:
     print()
+
+
+continue            #Goes to the next condition 
+break               #Finishes the if else entirely
