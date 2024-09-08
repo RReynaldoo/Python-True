@@ -5,4 +5,3 @@
 
 def net_price(list_price,discount=0,tax=0.05):      #DEFAULT    = if no value is passed for parameters with a value assign then they will use the assign one
     return list_price * (1 - discount) * (1 - tax)
-
