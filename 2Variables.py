@@ -7,3 +7,5 @@ b = 12.99       #floats
 c = True        #booleans
 
 d = "anything"  #stringsuy
+
+a,d = d,a       #To swap the values of variables
