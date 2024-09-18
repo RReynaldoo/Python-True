@@ -16,3 +16,4 @@ math.sqrt()
 math.ceil()
 math.floor()
 
+//      #Devides and rounds down
