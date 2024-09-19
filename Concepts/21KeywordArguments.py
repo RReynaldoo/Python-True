@@ -1,6 +1,6 @@
 # keyword arguments = arguments prefixed with the names of parameters
-#                                        order of the arguments doesn’t matter
-#                                        helps with readability
+#                     order of the arguments doesn’t matter
+#                     helps with readability
 
 # ----- EXAMPLE 1 -----
 def hello(greeting, title, first, last):

@@ -24,9 +24,6 @@ address(street="Monroe",city="Elizabeth",state="New Jersey")    #Sends all the v
 #-----------------------------
 
 
-
-
-
 #ARGS, KWARGS
 #-------------------------------------------
 def something(*args,**kwargs):          #You can have both in a function. Remember that here they behave like tuples and dictionaries, so treat them as such

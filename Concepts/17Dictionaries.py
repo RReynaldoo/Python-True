@@ -16,6 +16,6 @@ users_passwords.values()                        #Returns the values of the dicti
 users_passwords.items()                         #Returns the {key: value} of the dictionary
 
     #--------------To show all the values of the dictionary------------------
-    for key, value in kwargs.items()
+    for key, value in users_passwords.items()   #Use two variables next to "for" because there are two elements next to each other in a dictionary rather than one
         print(f"{key}:{value}")
     #------------------------------------------------------------------------
