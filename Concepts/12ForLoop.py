@@ -10,5 +10,3 @@ for i in reversed(range(1,12,2)):       #Use reversed function to count backward
     
 for i in name:                  #Can use any of the other datatypes
     print(i)
-    
-    
