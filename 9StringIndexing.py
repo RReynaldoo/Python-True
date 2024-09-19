@@ -1,6 +1,6 @@
 #Indexing with strings = access elements in a sequence of a string using []
 #                            [start : end : step]
-#
+#With any type of index python always skips the "end"
 
 name = "josh"
 
