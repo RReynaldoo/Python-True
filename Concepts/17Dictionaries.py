@@ -1,6 +1,12 @@
 #dictionaries = a collection of {key: value} pairs
 #               ordered and changeable. No duplicates
 
+#In dictionaries, the index is not a number, the key is
+"""
+##########  Instead of     users_passwords[0]     ##########
+##########  You would use  users_passwords[Adam]  ##########
+"""
+
 users_passwords = { "Adam":"Lastdance1324%",
                     "Tobias":"contrasena1324",
                     "Gena":"Tokyoghetto1324%00"
