@@ -13,7 +13,7 @@ print(my_boolean)
 
 #-----------------------------------------------------------------------------------------------
 #EXAMPLE WITH DICTIONARY
-    
+
 my_dictionary = {"Alex":100,"Michael":98,"Richard":88}
 
 guess = Alex
@@ -22,3 +22,10 @@ if guess in my_dictionary:
     print(f"The student {guess} has average grades of {my_dictionary[guess]}")
 else:
     print("Student no found")
+
+#----------------------------------------------------------------------------------------------
+#EXAMPLE WITH LIST
+my_list =[1,2,3,4,5,6]
+
+if 1 and 6 in my_list:
+    print("Yessir")
