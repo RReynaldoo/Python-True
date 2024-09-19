@@ -18,4 +18,11 @@ users_passwords.items()                         #Returns the {key: value} of the
     #--------------To show all the values of the dictionary------------------
     for key, value in users_passwords.items()   #Use two variables next to "for" because there are two elements next to each other in a dictionary rather than one
         print(f"{key}:{value}")
+
+    for a in users_passwords.keys():    #Iterate only through keys
+    print(a)
+
+    for b in users_passwords.values():  #Iterate only through keys
+    print(b)
+
     #------------------------------------------------------------------------
