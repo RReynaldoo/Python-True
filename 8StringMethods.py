@@ -1,6 +1,7 @@
 some = "hola"
 
-len()               #Returns the length of a string             Returns integer
+some += "hi"        #Adds this to the string
+some.len()          #Returns the length of a string             Returns integer
 some.find()         #Finds the first occurrence of a character  Returns a string        -1 if it doesn't find anything
 some.rfind()        #Finds the last occurrence of a character   Returns a string
 some.capitalize()   #Uppercase the first letter of the string

@@ -1,4 +1,4 @@
-# Type casting = change the datatype
+# Type casting = The process of changing the datatype
 
 type()  #To get the datatype of a variable
 
