@@ -15,4 +15,4 @@ math.sqrt()
 math.ceil()
 math.floor()
 
-//      #Devides and rounds down
+#      #Devides and rounds down
