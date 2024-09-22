@@ -8,3 +8,7 @@
     
     # You can create a module by creating another python file, building functions and then importing them
     # and use the functions as any other module pre incorporated
+
+#----------------------------------------------------------------------------------------------------------------------------
+
+# Variable use priority order = Local -> Enclosed -> Global -> Built-in
