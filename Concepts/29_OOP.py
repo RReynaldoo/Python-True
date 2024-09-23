@@ -14,7 +14,7 @@ def main():
 
 class Car:
     def __init__(self, model, year, color, for_sale):     #Constructor of objects
-        self.model = model
+        self.model = model  # This is the same as car1.model = model, for each object
         self.year = year
         self.color = color
         self.forSale = for_sale
