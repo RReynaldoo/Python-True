@@ -1,6 +1,6 @@
 # Inheritance = Allows a class to inherit attributes and methods from another class
 #               Help with code reusability
-#               Class Child(Parent)
+#               Class Child(Parent) || Dog(Animal)
 
 def main():
     dog1 = Dog("Bruce")
