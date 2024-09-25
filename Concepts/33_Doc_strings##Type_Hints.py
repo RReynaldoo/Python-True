@@ -2,8 +2,9 @@
 #              They can be accessed programmatically at runtime using the __doc__ attribute
 
 
-def greet(name: str) -> None:       #"->" None is a type hint indicating that a function returns no value
+def greet(name: str) -> None:       #"-> None" is a type hint indicating that a function returns no value
                                     # It doesn't affect the functionality of the function
+                                    # Same applies for  ": str" which implies that name should be a string but you can still pass a int, for instance
 
     """Print a personalized greeting message.
 
