@@ -19,3 +19,4 @@ def add(x,y):
 
 print(add(2,3))
 
+# If there is no return, then it will return None
