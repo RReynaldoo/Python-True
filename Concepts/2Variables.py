@@ -12,3 +12,5 @@ d = "anything"  #strings
 a,d = d,a       #To swap the values of variables
 
 #They can change at any time, so if you stored a str it can also be a int if you assign it
+
+#There are no means to create constants, so you can only indicate they are so by using UPPER_CASE to indicate it
