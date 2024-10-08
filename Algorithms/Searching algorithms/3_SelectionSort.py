@@ -17,24 +17,7 @@ def swap(lyst, a, b):
     lyst[a] = lyst[b]
     lyst[b] = temp
 #---------------------------------------------------
-
 lyst = [5,3,1,2,4]
 print(lyst)
 selectionSort(lyst)
 print(lyst)
-#---------------------------------------------------(Tweaked version that corresponds to my notes)
-
-def bubbleSort(lyst):
-    n = len(lyst)
-    while n > 1:
-        swapped = False         # Flag to check if any swaps were made
-        i = 1
-        while i < n:
-            if lyst[i] < lyst[i-1]:
-                lyst[i], lyst[i-1] = lyst[i-1], lyst[i]  # Swap elements
-                swapped = True  # Set flag to True if a swap was made
-            i += 1
-        if not swapped:         # If no swaps were made, the list is already sorted
-            break
-        n -= 1
-    return lyst
