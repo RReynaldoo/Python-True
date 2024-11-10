@@ -20,7 +20,7 @@ fruit.reverse()
 fruit.clear()
 fruit.index("banana")        #Returns the index of an item in the list
 fruit.count("banana")        #Returns the number of times this item is repeated
-fruit.pop()                  #Removes the first item of the list
+fruit.pop()                  #Removes the last item of the list (Otherwise you can specify the position)
 ("banana" in fruit )         #Checks if an element exists
 
 #Whe you use negative indexes, it will give you the values in inverted order
